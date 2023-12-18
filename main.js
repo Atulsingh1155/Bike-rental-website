@@ -12,15 +12,15 @@ window.onscroll = () =>{
 const sr = ScrollReveal({
     distance:'60px',
     duration: 2500,
-    delay: 400,
+    delay: 200,
     reset: true
 })
 
-sr.reveal('.text',{delay:200, origin: 'top'})
-sr.reveal('.form-container form',{delay:800, origin: 'left'})
-sr.reveal('.heading',{delay:800, origin: 'top'})
-sr.reveal('.ride-container .box',{delay:600, origin: 'top'})
-sr.reveal('.services-container .box',{delay:600, origin: 'top'})
-sr.reveal('.about-container .box',{delay:600, origin: 'top'})
-sr.reveal('.reviews-container ',{delay:600, origin: 'top'})
-sr.reveal('.newsletter',{delay:400, origin: 'top'})
+sr.reveal('.text',{delay:50, origin: 'top'})
+sr.reveal('.form-container form',{delay:100, origin: 'left'})
+sr.reveal('.heading',{delay:100, origin: 'top'})
+sr.reveal('.ride-container .box',{delay:100, origin: 'top'})
+sr.reveal('.services-container .box',{delay:100, origin: 'top'})
+sr.reveal('.about-container .box',{delay:100, origin: 'top'})
+sr.reveal('.reviews-container ',{delay:100, origin: 'top'})
+sr.reveal('.newsletter',{delay:80, origin: 'top'})
